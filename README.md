@@ -1,4 +1,4 @@
-# Elementicon
+# Xplora
 
 > A front-end web app for a travel agency that allows users to explore the various packages and destinations the company offers.
 
@@ -24,4 +24,3 @@
 ## Screenshots
 
 ![Screenshot 2023-07-20 164249](https://github.com/f3hint0la/xplora/assets/102443135/2966f7e5-489a-4b7b-9e36-5e285f50cfc1)
-
