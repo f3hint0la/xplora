@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xplora | Destinations</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- aos cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <style>
+      .hero {
+        background: linear-gradient(
+            rgba(17, 17, 17, 0.7),
+            rgba(17, 17, 17, 0.7)
+          ),
+          url(assets/venice.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!------------------------------>
+    <!-- navbar -->
+    <!------------------------------>
+    <header class="header">
+      <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="150"
+        href="home.html"
+        class="logo"
+      >
+        <i class="fa-solid fa-plane-departure"></i>
+        Xplora
+      </a>
+
+      <nav data-aos="zoom-in-left" data-aos-delay="300" class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="home.html"
+          >home</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="about.html"
+          >about</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="destinations.html"
+          >destinations</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="explore.html"
+          >explore</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="register.html"
+          >register</a
+        >
+      </nav>
+
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="1300"
+        class="btn"
+        href="book.html"
+        >book now</a
+      >
+    </header>
+
+    <!------------------------------>
+    <!-- hero section -->
+    <!------------------------------>
+    <section class="hero">
+      <div class="content">
+        <h2 data-aos="fade-up" data-aos-delay="150">
+          Explore, Travel, Discover
+        </h2>
+        <div data-aos="fade-up" data-aos-delay="150" class="divider"></div>
+        <h3 data-aos="fade-up" data-aos-delay="300">
+          It's A Big World Out There
+        </h3>
+        <a data-aos="fade-up" data-aos-delay="450" href="#" class="btn"
+          >Discover More</a
+        >
+      </div>
+    </section>
+
+    <!------------------------------>
+    <!-- destinations section -->
+    <!------------------------------>
+    <section class="destinations">
+      <div class="heading">
+        <span>Top Destinations</span>
+        <h1>Explore our top destinations</h1>
+      </div>
+
+      <div class="container">
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/eiffeltower.jpg" alt="Eiffel Tower" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Eiffel Tower</h3>
+            <address>Paris, France</address>
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/santorini.jpg" alt="santorini" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>santorini</h3>
+            <address>Santorini, Greece</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                4.9
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/bangkok.jpg" alt="bangkok" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Bangkok</h3>
+            <address>Bangkok, Thailand</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/tahiti.jpg" alt="tahiti" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Tahiti</h3>
+            <address>Tahiti, French Polynesia</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/sydney.jpg" alt="sydney" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Sydney</h3>
+            <address>Sydney, Australia</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                4.9
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/venice.jpg" alt="venice" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Venice</h3>
+            <address>Venice, Italy</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/tokyo.jpg" alt="tokyo" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Tokyo</h3>
+            <address>Tokyo, Japan</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/bali.jpg" alt="bali" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Bali</h3>
+            <address>Bali, Idonesia</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/maldives.jpg" alt="maldives" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>Maldives</h3>
+            <address>Maldives, South Asia</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/sanfrancisco.jpg" alt="sanfrancisco" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>San Francisco</h3>
+            <address>San Francisco, California</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/seychelles.jpg" alt="Italy" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>seychelles</h3>
+            <address>seychelles</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <div class="card-banner">
+            <img src="assets/venice.jpg" alt="Italy" />
+            <span>$420</span>
+          </div>
+
+          <div class="content">
+            <h3>cape town</h3>
+            <address>cape town, south africa</address>
+
+            <div class="destination-rating">
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                5.0
+              </span>
+              <p>(14.5k Reviews)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="load-more">
+        <span class="btn">Discover More Destinations</span>
+      </div>
+    </section>
+
+    <!-- -------------------------- -->
+    <!-- discount section -->
+    <!-- -------------------------- -->
+    <section class="discount">
+      <div class="container">
+        <div class="content">
+          <h3>upto 50% off</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+            mollitia facilis doloremque non labore vero dolorum voluptas
+            perferendis provident minima officiis debitis deserunt vitae dolor,
+            sequi ut pariatur aut eligendi.
+          </p>
+          <a href="book.html" class="btn">Book Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------>
+    <!-- banner section -->
+    <!------------------------------>
+    <section class="banner">
+      <div data-aos="zoom-in-up" data-aos-delay="300" class="content">
+        <span>Start your adventure</span>
+        <h3>Travel Around The World</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut a maiores
+          veniam culpa facilis iste ipsam nobis sit quaerat, necessitatibus est?
+          Libero cupiditate totam consectetur blanditiis illo amet eum suscipit!
+        </p>
+        <a href="book.html" class="btn">book now</a>
+      </div>
+    </section>
+
+    <!------------------------------>
+    <!-- footer section -->
+    <!------------------------------>
+    <section class="footer">
+      <div class="container">
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="150">
+          <a href="home.html" class="logo">
+            <i class="fa-solid fa-plane-departure"></i>
+            Xplora
+          </a>
+          <p>
+            We always make our customers happy by providing the best services
+            with as many choices as possible.
+          </p>
+          <div class="social-links">
+            <a href="#" class="fa-brands fa-square-instagram"></a>
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-square-twitter"></a>
+          </div>
+        </div>
+
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="300">
+          <h3>Quick Links</h3>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Home
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            About
+          </a>
+          <a href="#destinations" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Destinations
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Tours
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Packages
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Explore
+          </a>
+        </div>
+
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="450">
+          <h3>Contact Info</h3>
+          <p><i class="fa-solid fa-phone"></i>+123-456-7890</p>
+          <p><i class="fa-solid fa-location-dot"></i>Lagos, Nigeria</p>
+          <p><i class="fa-solid fa-envelope"></i>info@Xplora.com</p>
+          <p><i class="fa-solid fa-business-time"></i>8:00am - 9:00pm</p>
+        </div>
+
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="600">
+          <h3>Newsletter</h3>
+          <p>subscribe for latest updates and discounts</p>
+          <form action="">
+            <input type="email" placeholder="Enter Your Email" class="email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="credit">
+      Copyright 2023. Made by
+      <a href="https://github.com/f3hint0la" class="copyright-link">
+        f3hint0la</a
+      >
+      | All Rights Reserved!
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

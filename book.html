@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xplora | Book</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- aos cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+  </head>
+
+  <body>
+    <!------------------------------>
+    <!-- navbar -->
+    <!------------------------------>
+    <header class="header">
+      <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="150"
+        href="home.html"
+        class="logo"
+      >
+        <i class="fa-solid fa-plane-departure"></i>
+        Xplora
+      </a>
+
+      <nav data-aos="zoom-in-left" data-aos-delay="300" class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="home.html"
+          >home</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="about.html"
+          >about</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="destinations.html"
+          >destinations</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="1150" href="explore.html"
+          >explore</a
+        >
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="register.html"
+          >register</a
+        >
+      </nav>
+
+      <a
+        data-aos="zoom-in-left"
+        data-aos-delay="1300"
+        class="btn"
+        href="book.php"
+        >book now</a
+      >
+    </header>
+
+    <!------------------------------>
+    <!-- hero section -->
+    <!------------------------------>
+    <section class="hero">
+      <div class="content">
+        <h2 data-aos="fade-up" data-aos-delay="150">
+          Explore, Travel, Discover
+        </h2>
+        <div data-aos="fade-up" data-aos-delay="150" class="divider"></div>
+        <h3 data-aos="fade-up" data-aos-delay="300">
+          It's A Big World Out There
+        </h3>
+        <a data-aos="fade-up" data-aos-delay="450" href="#" class="btn"
+          >Discover More</a
+        >
+      </div>
+    </section>
+
+    <!------------------------------>
+    <!-- book section -->
+    <!------------------------------>
+    <section class="booking">
+      <div class="heading">
+        <span>Book your trip</span>
+        <h1>Start your adventure</h1>
+      </div>
+
+      <form action="" method="post" class="book-form">
+        <div class="container">
+          <div class="inputbox">
+            <span>first name :</span>
+            <input
+              type="text"
+              placeholder="enter your name"
+              name="first_name"
+            />
+          </div>
+
+          <div class="inputbox">
+            <span>last name :</span>
+            <input type="text" placeholder="enter your name" name="last_name" />
+          </div>
+
+          <div class="inputbox">
+            <span>email :</span>
+            <input type="email" placeholder="enter your email" name="email" />
+          </div>
+
+          <div class="inputbox">
+            <span>phone :</span>
+            <input
+              type="tel"
+              placeholder="enter your phone code"
+              name="phone"
+            />
+          </div>
+
+          <div class="inputbox">
+            <span>address :</span>
+            <input
+              type="text"
+              placeholder="enter your address"
+              name="address"
+            />
+          </div>
+
+          <div class="inputbox">
+            <span>destination :</span>
+            <input
+              type="text"
+              placeholder="enter your destination"
+              name="destination"
+            />
+          </div>
+
+          <div class="inputbox">
+            <span>number of people :</span>
+            <input type="text" placeholder="how many guests" name="guests" />
+          </div>
+
+          <div class="inputbox">
+            <span>pick a date :</span>
+            <input type="date" name="arrival" />
+          </div>
+        </div>
+
+        <button type="submit" name="send" class="btn">Book</button>
+      </form>
+    </section>
+
+    <!------------------------------>
+    <!-- footer section -->
+    <!------------------------------>
+    <section class="footer">
+      <div class="container">
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="150">
+          <a href="home.php" class="logo">
+            <i class="fa-solid fa-plane-departure"></i>
+            Xplora
+          </a>
+          <p>
+            We always make our customers happy by providing the best services
+            with as many choices as possible.
+          </p>
+          <div class="social-links">
+            <a href="#" class="fa-brands fa-square-instagram"></a>
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-square-twitter"></a>
+          </div>
+        </div>
+
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="300">
+          <h3>Quick Links</h3>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Home
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            About
+          </a>
+          <a href="#destinations" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Destinations
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Tours
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Packages
+          </a>
+          <a href="" class="company-link">
+            <i class="fa-solid fa-arrow-right"></i>
+            Explore
+          </a>
+        </div>
+
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="450">
+          <h3>Contact Info</h3>
+          <p><i class="fa-solid fa-phone"></i>+123-456-7890</p>
+          <p><i class="fa-solid fa-location-dot"></i>Lagos, Nigeria</p>
+          <p><i class="fa-solid fa-envelope"></i>info@Xplora.com</p>
+          <p><i class="fa-solid fa-business-time"></i>8:00am - 9:00pm</p>
+        </div>
+
+        <div class="footer-details" data-aos="fade-up" data-aos-delay="600">
+          <h3>Newsletter</h3>
+          <p>subscribe for latest updates and discounts</p>
+          <form action="">
+            <input type="email" placeholder="Enter Your Email" class="email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="credit">
+      Copyright 2023. Made by
+      <a href="https://github.com/f3hint0la" class="copyright-link">
+        f3hint0la</a
+      >
+      | All Rights Reserved!
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
